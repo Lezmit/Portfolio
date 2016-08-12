@@ -1,0 +1,254 @@
+/* Tu CSS va aqui */
+body {
+    width: 100%;
+    height: 100%;
+  
+  
+}
+
+html {
+    width: 100%;
+    height: 100%;
+  }
+
+.navbar-default{
+	background-color: transparent;
+	border-color: white;
+}
+@media(min-width: 768px){
+	.navbar-nav{
+	float: right;
+	}
+}
+
+.intro{
+	width: 100%;
+	height: 100%;
+	background: url(../img/header.jpg) center center fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	color:white;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+.intro h6{
+	font-size: 50px;
+	padding: 150px 50px 10px 50px;
+}
+.linea {
+	border-bottom: 2px solid #DF3A01;
+	width: 35px;
+	position: relative;
+	left: 48%;
+	
+}
+header p{
+	padding: 30px 120px;
+	color: #BDBDBD;
+}
+header a{
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	padding:15px 25px;
+	border-radius:50px; 
+	background: #DF3A01;
+
+}
+
+
+@media(max-width: 768px){
+.navbar-default{
+	background-color: white;
+}
+.navbar-default .navbar-brand {
+    color: #DF3A01;
+    font-weight: 600;
+}
+.intro{
+	width: 100%;
+	height: 100%;
+	background: url(../img/header.jpg) center center fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	color:white;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+.intro h6{
+	font-size: 27px;
+	padding: 78px 0px 0px 0px;
+}
+.linea {
+	border-bottom: 2px solid #DF3A01;
+	width: 35px;
+	position: relative;
+	left: 45%;
+	margin: 25px 0px;
+}
+header p{
+	padding: 0px;
+	color: #BDBDBD;
+	font-size: 10px;
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+header a{
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	padding:15px 25px;
+	border-radius:50px; 
+	background: #DF3A01;
+
+}
+
+
+}
+
+.seccion1{
+	background: #DF3A01;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+
+.seccion1 .linea {
+	border-bottom: 2px solid white;
+	width: 35px;
+	position: relative;
+	left: 49%;
+	margin: 20px 0px;
+}
+
+.seccion2{
+	background: white;
+	padding-top: 50px;
+	text-align: center;
+}
+.seccion2 .linea {
+	border-bottom: 2px solid #DF3A01;
+	width: 35px;
+	position: relative;
+	left: 49%;
+	margin-top: 25px;
+	margin-bottom: 80px;
+}
+.seccion2 .espacio{
+	padding-bottom: 40px;
+}
+
+.seccion2 h6{
+	color: black;
+	font-size: 18px;
+
+}
+.seccion2 p{
+	color: gray;
+}
+.icono2{
+	font-size: 50px;
+	color:#DF3A01; 
+}
+
+.imagenes31{
+	background: url(../img/1.jpg);
+	background-size: 100% ;
+	height: 270px;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+}
+.imagenes32{
+	background: url(../img/2.jpg);
+	background-size: 100% ;
+	height: 270px;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+}
+.imagenes33{
+	background: url(../img/3.jpg);
+	background-size: 100% ;
+	height: 270px;	
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+}
+.imagenes34{
+	background: url(../img/4.jpg);
+	background-size: 100% cover;
+	height: 270px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.imagenes35{
+	background: url(../img/5.jpg);
+	background-size: 100% auto;
+	height: 270px;
+	background-repeat: no-repeat;
+	-webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+}
+.imagenes36{
+	background: url(../img/6.jpg);
+	background-size: 100% auto;
+	height: 270px;
+	background-repeat: no-repeat;
+	-webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+}
+.seccion4{
+	background: #212121;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.seccion4 p{
+	padding-bottom: 10px;
+}
+
+.seccion4 a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 50px;
+	background: white;
+	color: black;
+}
+
+.seccion5 {
+	background: white;
+	color: black;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.seccion5 .linea{
+	margin-bottom: 15px;
+}
+.seccion5 .icono5{
+	font-size: 50px;
+	color: black;
+}
+.seccion5 p a{
+	text-decoration: none;
+	color: #DF3A01;
+	right: 
+}
